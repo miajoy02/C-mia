@@ -1,0 +1,8 @@
+DATA = {"ACCURACY": "The degree to which a measurement or calculation matches the true or expected value",
+                  "CALIBRATION": "The process of adjusting and verifying the accuracy of measuring instrument and tools.",
+                  "PASCALINE": "Works by rotating a wheel. For every revolution, it rotates the neighbouring wheel which totals up on top of the machine.",
+                  "STEPPED_RECKONER": "it also rotates like the Pascaline but instead it uses fluted drums.",
+                  "ANALYTICAL_ENGINE": "A machine developed by Charles Babbage capable of performing any mathematical problem. It also stores data and has permanent memory."}
+
+a = input("Type ")
+print(DATA[a])
